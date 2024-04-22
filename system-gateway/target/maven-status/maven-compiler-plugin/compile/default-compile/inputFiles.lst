@@ -1,0 +1,11 @@
+E:\JavaWeb\2023\CatProtectionSystem\system-gateway\src\main\java\com\liuwei\gateway\filters\AuthGlobalFilter.java
+E:\JavaWeb\2023\CatProtectionSystem\system-gateway\src\main\java\com\liuwei\gateway\GatewayApplication.java
+E:\JavaWeb\2023\CatProtectionSystem\system-gateway\src\main\java\com\liuwei\gateway\config\AuthenticationSuccessHandler.java
+E:\JavaWeb\2023\CatProtectionSystem\system-gateway\src\main\java\com\liuwei\gateway\domain\UserDetail.java
+E:\JavaWeb\2023\CatProtectionSystem\system-gateway\src\main\java\com\liuwei\gateway\utils\JwtTool.java
+E:\JavaWeb\2023\CatProtectionSystem\system-gateway\src\main\java\com\liuwei\gateway\config\SecurityUserDetailService.java
+E:\JavaWeb\2023\CatProtectionSystem\system-gateway\src\main\java\com\liuwei\gateway\config\AuthorizationManager.java
+E:\JavaWeb\2023\CatProtectionSystem\system-gateway\src\main\java\com\liuwei\gateway\route\DynamicRouteLoader.java
+E:\JavaWeb\2023\CatProtectionSystem\system-gateway\src\main\java\com\liuwei\gateway\config\WebSecurityConfig.java
+E:\JavaWeb\2023\CatProtectionSystem\system-gateway\src\main\java\com\liuwei\gateway\config\AuthenticationFailedHandler.java
+E:\JavaWeb\2023\CatProtectionSystem\system-gateway\src\main\java\com\liuwei\gateway\config\AuthProperties.java

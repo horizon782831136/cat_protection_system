@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="system-framework" />
+        <module name="system-admin" />
+        <module name="system-api" />
+        <module name="test" />
+        <module name="system-user" />
+        <module name="system-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="system-security" target="11" />
+      <module name="test" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="system-admin" options="-parameters" />
+      <module name="system-api" options="-parameters" />
+      <module name="system-framework" options="-parameters" />
+      <module name="system-gateway" options="-parameters" />
+      <module name="system-security" options="-parameters" />
+      <module name="system-user" options="-parameters" />
+      <module name="test" options="-parameters" />
+    </option>
+  </component>
+</project>

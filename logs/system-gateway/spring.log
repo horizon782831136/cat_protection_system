@@ -1,0 +1,199 @@
+15:46:49:494  INFO 11460 --- [main] com.liuwei.gateway.GatewayApplication    : The following 1 profile is active: "dev"
+15:46:50:315  INFO 11460 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+15:46:50:315  INFO 11460 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15:46:50:392  INFO 11460 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 0 Redis repository interfaces.
+15:46:50:550  INFO 11460 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=720654b9-51fe-3362-9665-c1f2c341acf6
+15:46:50:648  INFO 11460 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:46:50:648  INFO 11460 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:46:50:648  INFO 11460 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:46:50:791  INFO 11460 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+15:46:50:791  INFO 11460 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+15:46:50:791  INFO 11460 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+15:46:50:791  INFO 11460 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+15:46:50:791  INFO 11460 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+15:46:50:791  INFO 11460 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+15:46:50:801  INFO 11460 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+15:46:50:801  INFO 11460 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+15:46:52:399  INFO 11460 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+15:46:52:399  INFO 11460 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+15:46:52:399  INFO 11460 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+15:46:52:399  INFO 11460 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+15:46:52:399  INFO 11460 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+15:46:52:399  INFO 11460 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+15:46:52:399  INFO 11460 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+15:46:52:399  INFO 11460 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+15:46:52:399  INFO 11460 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+15:46:52:399  INFO 11460 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+15:46:52:399  INFO 11460 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+15:46:52:399  INFO 11460 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+15:46:52:408  INFO 11460 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+15:46:52:408  INFO 11460 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+15:46:52:522  INFO 11460 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of d5733db9-a12f-4863-b354-c599826857a5
+15:46:52:522  INFO 11460 --- [main] com.alibaba.nacos.common.remote.client   : [d5733db9-a12f-4863-b354-c599826857a5] RpcClient init label, labels = {module=naming, source=sdk}
+15:46:52:522  INFO 11460 --- [main] com.alibaba.nacos.common.remote.client   : [d5733db9-a12f-4863-b354-c599826857a5] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+15:46:52:522  INFO 11460 --- [main] com.alibaba.nacos.common.remote.client   : [d5733db9-a12f-4863-b354-c599826857a5] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+15:46:52:522  INFO 11460 --- [main] com.alibaba.nacos.common.remote.client   : [d5733db9-a12f-4863-b354-c599826857a5] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+15:46:52:522  INFO 11460 --- [main] com.alibaba.nacos.common.remote.client   : [d5733db9-a12f-4863-b354-c599826857a5] Try to connect to server on start up, server: {serverIp = '47.96.168.204', server main port = 8848}
+15:46:52:714  INFO 11460 --- [main] com.alibaba.nacos.common.remote.client   : [d5733db9-a12f-4863-b354-c599826857a5] Success to connect to server [47.96.168.204:8848] on start up, connectionId = 1713080812582_117.154.99.184_17433
+15:46:52:714  INFO 11460 --- [main] com.alibaba.nacos.common.remote.client   : [d5733db9-a12f-4863-b354-c599826857a5] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:46:52:714  INFO 11460 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [d5733db9-a12f-4863-b354-c599826857a5] Notify connected event to listeners.
+15:46:52:714  INFO 11460 --- [main] com.alibaba.nacos.common.remote.client   : [d5733db9-a12f-4863-b354-c599826857a5] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$476/0x000000080041b440
+15:46:53:021  INFO 11460 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+15:46:53:052  INFO 11460 --- [main] ctiveUserDetailsServiceAutoConfiguration : 
+
+Using generated security password: aa0f5061-e5a2-40e1-a4b6-3cfb10edf24a
+
+15:46:53:427  WARN 11460 --- [main] s.o.SpringCloudSecurityAutoConfiguration : All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+15:46:53:552  INFO 11460 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+15:46:54:043  INFO 11460 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP system-gateway 192.168.231.1:8080 register finished
+15:46:54:048  INFO 11460 --- [main] com.liuwei.gateway.GatewayApplication    : Started GatewayApplication in 7.391 seconds (JVM running for 8.344)
+15:46:54:064  INFO 11460 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [d5733db9-a12f-4863-b354-c599826857a5] Receive server push request, request = NotifySubscriberRequest, requestId = 275
+15:46:54:074  INFO 11460 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [d5733db9-a12f-4863-b354-c599826857a5] Ack server push request, request = NotifySubscriberRequest, requestId = 275
+15:46:55:071  WARN 11460 --- [boundedElastic-1] o.s.b.a.r.RedisReactiveHealthIndicator   : Redis health check failed
+
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1689) ~[spring-data-redis-2.7.12.jar:2.7.12]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1597) ~[spring-data-redis-2.7.12.jar:2.7.12]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1383) ~[spring-data-redis-2.7.12.jar:2.7.12]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1366) ~[spring-data-redis-2.7.12.jar:2.7.12]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedReactiveConnection(LettuceConnectionFactory.java:1117) ~[spring-data-redis-2.7.12.jar:2.7.12]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getReactiveConnection(LettuceConnectionFactory.java:509) ~[spring-data-redis-2.7.12.jar:2.7.12]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getReactiveConnection(LettuceConnectionFactory.java:103) ~[spring-data-redis-2.7.12.jar:2.7.12]
+	at reactor.core.publisher.MonoSupplier.call(MonoSupplier.java:86) ~[reactor-core-3.4.29.jar:3.4.29]
+	at reactor.core.publisher.FluxSubscribeOnCallable$CallableSubscribeOnSubscription.run(FluxSubscribeOnCallable.java:227) ~[reactor-core-3.4.29.jar:3.4.29]
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68) ~[reactor-core-3.4.29.jar:3.4.29]
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28) ~[reactor-core-3.4.29.jar:3.4.29]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78) ~[lettuce-core-6.1.10.RELEASE.jar:6.1.10.RELEASE]
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56) ~[lettuce-core-6.1.10.RELEASE.jar:6.1.10.RELEASE]
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:330) ~[lettuce-core-6.1.10.RELEASE.jar:6.1.10.RELEASE]
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:216) ~[lettuce-core-6.1.10.RELEASE.jar:6.1.10.RELEASE]
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:115) ~[spring-data-redis-2.7.12.jar:2.7.12]
+	at java.base/java.util.Optional.orElseGet(Optional.java:369) ~[na:na]
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:115) ~[spring-data-redis-2.7.12.jar:2.7.12]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1595) ~[spring-data-redis-2.7.12.jar:2.7.12]
+	... 14 common frames omitted
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779) ~[na:na]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+15:49:31:165  INFO 12012 --- [main] com.liuwei.gateway.GatewayApplication    : The following 1 profile is active: "dev"
+15:49:31:849  INFO 12012 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+15:49:31:849  INFO 12012 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15:49:31:869  INFO 12012 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+15:49:32:050  INFO 12012 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=720654b9-51fe-3362-9665-c1f2c341acf6
+15:49:32:137  INFO 12012 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:49:32:137  INFO 12012 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:49:32:137  INFO 12012 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:49:32:275  INFO 12012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+15:49:32:275  INFO 12012 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+15:49:32:275  INFO 12012 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+15:49:32:275  INFO 12012 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+15:49:32:275  INFO 12012 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+15:49:32:291  INFO 12012 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+15:49:32:292  INFO 12012 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+15:49:32:292  INFO 12012 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+15:49:33:759  INFO 12012 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+15:49:33:759  INFO 12012 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+15:49:33:759  INFO 12012 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+15:49:33:759  INFO 12012 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+15:49:33:759  INFO 12012 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+15:49:33:759  INFO 12012 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+15:49:33:759  INFO 12012 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+15:49:33:759  INFO 12012 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+15:49:33:759  INFO 12012 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+15:49:33:759  INFO 12012 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+15:49:33:759  INFO 12012 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+15:49:33:759  INFO 12012 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+15:49:33:759  INFO 12012 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+15:49:33:759  INFO 12012 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+15:49:33:862  INFO 12012 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of fa6ab416-0c13-4bba-9701-3348c87237f9
+15:49:33:862  INFO 12012 --- [main] com.alibaba.nacos.common.remote.client   : [fa6ab416-0c13-4bba-9701-3348c87237f9] RpcClient init label, labels = {module=naming, source=sdk}
+15:49:33:877  INFO 12012 --- [main] com.alibaba.nacos.common.remote.client   : [fa6ab416-0c13-4bba-9701-3348c87237f9] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+15:49:33:877  INFO 12012 --- [main] com.alibaba.nacos.common.remote.client   : [fa6ab416-0c13-4bba-9701-3348c87237f9] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+15:49:33:877  INFO 12012 --- [main] com.alibaba.nacos.common.remote.client   : [fa6ab416-0c13-4bba-9701-3348c87237f9] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+15:49:33:877  INFO 12012 --- [main] com.alibaba.nacos.common.remote.client   : [fa6ab416-0c13-4bba-9701-3348c87237f9] Try to connect to server on start up, server: {serverIp = '47.96.168.204', server main port = 8848}
+15:49:34:068  INFO 12012 --- [main] com.alibaba.nacos.common.remote.client   : [fa6ab416-0c13-4bba-9701-3348c87237f9] Success to connect to server [47.96.168.204:8848] on start up, connectionId = 1713080973934_117.154.99.184_17606
+15:49:34:068  INFO 12012 --- [main] com.alibaba.nacos.common.remote.client   : [fa6ab416-0c13-4bba-9701-3348c87237f9] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:49:34:068  INFO 12012 --- [main] com.alibaba.nacos.common.remote.client   : [fa6ab416-0c13-4bba-9701-3348c87237f9] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$474/0x000000080041a840
+15:49:34:068  INFO 12012 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [fa6ab416-0c13-4bba-9701-3348c87237f9] Notify connected event to listeners.
+15:49:34:375  INFO 12012 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+15:49:34:401  INFO 12012 --- [main] ctiveUserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 53407bef-6f19-405c-9138-0c2bd0c04abe
+
+15:49:34:688  WARN 12012 --- [main] s.o.SpringCloudSecurityAutoConfiguration : All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+15:49:34:801  INFO 12012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+15:49:35:283  INFO 12012 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [fa6ab416-0c13-4bba-9701-3348c87237f9] Receive server push request, request = NotifySubscriberRequest, requestId = 276
+15:49:35:283  INFO 12012 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP system-gateway 192.168.231.1:8080 register finished
+15:49:35:287  INFO 12012 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [fa6ab416-0c13-4bba-9701-3348c87237f9] Ack server push request, request = NotifySubscriberRequest, requestId = 276
+15:49:35:297  INFO 12012 --- [main] com.liuwei.gateway.GatewayApplication    : Started GatewayApplication in 6.872 seconds (JVM running for 7.867)
+15:49:35:861  INFO 12012 --- [nacos-grpc-client-executor-8] com.alibaba.nacos.common.remote.client   : [fa6ab416-0c13-4bba-9701-3348c87237f9] Receive server push request, request = NotifySubscriberRequest, requestId = 277
+15:49:35:877  INFO 12012 --- [nacos-grpc-client-executor-8] com.alibaba.nacos.common.remote.client   : [fa6ab416-0c13-4bba-9701-3348c87237f9] Ack server push request, request = NotifySubscriberRequest, requestId = 277
+16:51:41:675  INFO 508 --- [main] com.liuwei.gateway.GatewayApplication    : The following 1 profile is active: "dev"
+16:51:42:391  INFO 508 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+16:51:42:391  INFO 508 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:51:42:417  INFO 508 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+16:51:42:570  INFO 508 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=720654b9-51fe-3362-9665-c1f2c341acf6
+16:51:42:656  INFO 508 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:51:42:656  INFO 508 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:51:42:660  INFO 508 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:51:42:791  INFO 508 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+16:51:42:792  INFO 508 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+16:51:42:792  INFO 508 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+16:51:42:792  INFO 508 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+16:51:42:792  INFO 508 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:51:42:792  INFO 508 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+16:51:42:801  INFO 508 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+16:51:42:801  INFO 508 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+16:51:44:197  INFO 508 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+16:51:44:197  INFO 508 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+16:51:44:197  INFO 508 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+16:51:44:197  INFO 508 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+16:51:44:197  INFO 508 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+16:51:44:197  INFO 508 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+16:51:44:197  INFO 508 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+16:51:44:197  INFO 508 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+16:51:44:197  INFO 508 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+16:51:44:197  INFO 508 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+16:51:44:197  INFO 508 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+16:51:44:197  INFO 508 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+16:51:44:197  INFO 508 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+16:51:44:197  INFO 508 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+16:51:44:310  INFO 508 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 4ea74df4-662e-4131-b20e-b832253a402d
+16:51:44:310  INFO 508 --- [main] com.alibaba.nacos.common.remote.client   : [4ea74df4-662e-4131-b20e-b832253a402d] RpcClient init label, labels = {module=naming, source=sdk}
+16:51:44:314  INFO 508 --- [main] com.alibaba.nacos.common.remote.client   : [4ea74df4-662e-4131-b20e-b832253a402d] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+16:51:44:314  INFO 508 --- [main] com.alibaba.nacos.common.remote.client   : [4ea74df4-662e-4131-b20e-b832253a402d] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+16:51:44:314  INFO 508 --- [main] com.alibaba.nacos.common.remote.client   : [4ea74df4-662e-4131-b20e-b832253a402d] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+16:51:44:316  INFO 508 --- [main] com.alibaba.nacos.common.remote.client   : [4ea74df4-662e-4131-b20e-b832253a402d] Try to connect to server on start up, server: {serverIp = '47.96.168.204', server main port = 8848}
+16:51:44:521  INFO 508 --- [main] com.alibaba.nacos.common.remote.client   : [4ea74df4-662e-4131-b20e-b832253a402d] Success to connect to server [47.96.168.204:8848] on start up, connectionId = 1713084704404_117.154.99.184_17432
+16:51:44:521  INFO 508 --- [main] com.alibaba.nacos.common.remote.client   : [4ea74df4-662e-4131-b20e-b832253a402d] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+16:51:44:521  INFO 508 --- [main] com.alibaba.nacos.common.remote.client   : [4ea74df4-662e-4131-b20e-b832253a402d] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$474/0x000000080041a840
+16:51:44:521  INFO 508 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [4ea74df4-662e-4131-b20e-b832253a402d] Notify connected event to listeners.
+16:51:44:830  INFO 508 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+16:51:44:853  INFO 508 --- [main] ctiveUserDetailsServiceAutoConfiguration : 
+
+Using generated security password: cdda68b3-7266-4738-9cef-95294141cefd
+
+16:51:45:162  WARN 508 --- [main] s.o.SpringCloudSecurityAutoConfiguration : All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+16:51:45:284  INFO 508 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+16:51:45:777  INFO 508 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP system-gateway 192.168.231.1:8080 register finished
+16:51:45:791  INFO 508 --- [main] com.liuwei.gateway.GatewayApplication    : Started GatewayApplication in 6.947 seconds (JVM running for 7.968)
+16:51:45:801  INFO 508 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [4ea74df4-662e-4131-b20e-b832253a402d] Receive server push request, request = NotifySubscriberRequest, requestId = 278
+16:51:45:811  INFO 508 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [4ea74df4-662e-4131-b20e-b832253a402d] Ack server push request, request = NotifySubscriberRequest, requestId = 278

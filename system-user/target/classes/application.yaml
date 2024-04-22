@@ -1,0 +1,15 @@
+server:
+  port: 8082
+liuwei:
+  db:
+    host: localhost
+    port: 3306
+    database: db_cat_protection_system
+    username: root
+    password: root
+  swagger:
+    package: com.liuwei.user.controller
+    title: 流浪猫保护系统用户接口文档
+    description: 流浪猫保护系统用户接口文档
+    email: 782831136@qq.com
+    concat: Mr.liu

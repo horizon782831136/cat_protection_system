@@ -1,0 +1,12 @@
+com\liuwei\gateway\config\SecurityUserDetailService.class
+com\liuwei\gateway\utils\JwtTool.class
+com\liuwei\gateway\config\AuthenticationFailedHandler.class
+com\liuwei\gateway\config\AuthenticationSuccessHandler.class
+com\liuwei\gateway\config\AuthorizationManager.class
+com\liuwei\gateway\filters\AuthGlobalFilter.class
+com\liuwei\gateway\GatewayApplication.class
+com\liuwei\gateway\config\AuthProperties.class
+com\liuwei\gateway\domain\UserDetail.class
+com\liuwei\gateway\route\DynamicRouteLoader.class
+com\liuwei\gateway\config\WebSecurityConfig.class
+com\liuwei\gateway\route\DynamicRouteLoader$1.class

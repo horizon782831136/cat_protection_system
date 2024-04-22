@@ -1,0 +1,7 @@
+liuwei:
+  db:
+    host: localhost
+    port: 3306
+    database: db_cat_protection_system
+    username: root
+    password: root

@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: system-admin
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      server-addr: 47.96.168.204:8848
+      config:
+        file-extension: yaml
+        shared-configs:
+          - data-id: shared-jdbc.yaml
+          - data-id: shared-log.yaml
+          - data-id: shared-swagger.yaml
